@@ -5,7 +5,7 @@ WORKDIR /usr/src/
 RUN curl -L https://npmjs.org/install.sh | sh
 
 # Eventually we can install from master
-RUN git clone https://github.com/TID-Lab/aggie.git && cd aggie && git checkout master
+RUN git clone https://github.com/pracdev/aggie.git && cd aggie && git checkout master
 
 WORKDIR aggie
 
